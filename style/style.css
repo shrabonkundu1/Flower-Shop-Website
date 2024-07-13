@@ -1,0 +1,157 @@
+
+
+/* Header section start here */
+/* 
+.banner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    height: 850px;
+    background-color: rgba(255, 0, 0, 0.05);
+}
+
+.banner-content {
+   width: 50%;
+   border: 2px solid ;
+   height: 506px;
+   margin-right: 97px;
+}
+
+.banner-content h1 {
+    color: rgb(39, 39, 39);
+    font-size: 80px;
+    font-family:  "Lato", sans-serif;
+    font-weight: 900;
+    margin-bottom: 32px;
+}
+
+.banner-content p {
+    color: rgb(39, 39, 39);
+    opacity: 0.6;
+    font-size: 18px;
+    font-family:  "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 32px;
+}
+
+.banner-content button {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family:  "Lato", sans-serif;
+    font-weight: 700;
+    padding: 20px 43px ;
+    background-color: rgb(229, 84, 115);
+    border: none;
+    border-radius: 6px;
+}
+
+
+.image-container img {
+    height: 800px;
+    width: 635px;
+    border: 2px solid;
+
+}
+ */
+
+
+ @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+/* Universal selector */
+
+* { 
+    font-family: "Lato", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banner-container {
+    display: flex;
+    width: auto;
+    height: 800px;
+    background-color: rgba(255, 84, 115, 0.1);
+}
+
+.banner-content {
+    width: 708px;
+    height: 506px;
+    margin: 170px 97px 0 180px;
+    flex: 1;
+}
+
+.banner-content h1 {
+    color: rgb(39, 39, 39);
+    font-family: "Lato", sans-serif;
+    font-size: 70px;
+    font-weight: 850;
+    line-height: 96px;
+    margin-bottom: 32px;
+}
+
+.banner-content p {
+    color: rgba(39, 39, 39, 0.6);
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 32px;
+}
+
+.banner-content button {
+    color: rgb(255, 255, 255);
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 43px;
+    border-radius: 8px;
+    background: rgb(229, 84, 115);
+    border: none;
+    outline: none;
+}
+.image-content img {
+    flex: 1;
+    width: 635px;
+    height: 800px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+    .banner-container {
+        flex-direction: column;
+        width: 900px;
+        height: 1550px;
+    }
+    
+    .banner-content {
+        margin: 165px 97px 0 120px;
+    }
+
+    .banner-content p {
+        font-size: 20px;
+    }
+
+    .image-content img {
+        margin-left: 100px;
+    }
+
+
+
+
+
+
+
