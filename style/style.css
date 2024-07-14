@@ -31,7 +31,7 @@
 
 .header-content h1 {
     color: rgb(39, 39, 39);
-    font-family: Lato;
+    font-family: "Lato", sans-serif;
     font-size: 69px;
     font-weight: 800;
     line-height: 82px;
@@ -40,7 +40,7 @@
 
 .header-content  p{
     color: rgba(39, 39, 39, 0.6);
-    font-family: Lato;
+    font-family: "Lato", sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
@@ -160,7 +160,7 @@
 
 .featured-flower-image >div p {
     color: rgb(39, 39, 39);
-    font-family: Lato;
+    font-family: "Lato", sans-serif;
     font-size: 24px;
     font-weight: 700;
 }
@@ -195,7 +195,7 @@
 
 .delivery-service p{
     color: rgba(39, 39, 39, 0.8);
-    font-family: Lato;
+    font-family: "Lato", sans-serif;
     font-size: 24px;
     font-weight: 600;
 }
@@ -213,7 +213,7 @@
 
 .production-section p{
     color: rgba(39, 39, 39, 0.8);
-    font-family: Lato;
+    font-family: "Lato", sans-serif;
     font-size: 24px;
     font-weight: 600;
 }
@@ -231,7 +231,7 @@
 
 .support-section p{
     color: rgba(39, 39, 39, 0.8);
-    font-family: Lato;
+    font-family: "Lato", sans-serif;
     font-size: 24px;
     font-weight: 600;
 }
@@ -240,14 +240,79 @@
 
 /* hot deal section start here */
 
-.hot-deal-section {
+.hotdeal-section {
     max-width: 1550px;
-    height: 620px;
+    height: 600px;
+    margin: 0 auto;
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
-    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.total-hotdeal {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    gap: 120px;
+}
+
+.hotdeal-content {
+    width: 794px;
+    height: 228px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 33px;
+    padding: 20px;
+    margin-top: 70px;
+}
+
+.hotdeal-content h1 {
+    font-family: "Lato", sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 48px;
+    margin-bottom: 24px;
+}
+
+.hotdeal-content p {
+    color: rgba(39, 39, 39, 0.6);
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 32px;
+}
+
+.hotdeal-content span {
+    color: rgba(255, 0, 0, 0.7);
+}
+
+.hotdeal-content button {
+    color: rgb(255, 255, 255);
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    padding: 20px 43px 20px 43px;
+    border-radius: 8px;
+    background: rgb(229, 84, 115);
+    border: none;
+    cursor: pointer;
+}
+.hotdeal-iamge {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right: 80px;
+}
 
 
 
