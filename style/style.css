@@ -73,6 +73,7 @@
 .featured-flower-section {
     width: 80%;
     margin: 0 auto;
+    margin-bottom: 128px;
 }
 
 .featured-flower-description {
@@ -165,6 +166,99 @@
 }
 /* first featured section end here */
 
+/* Service section start here */
+
+.service-section {
+    width: 80%;
+    height: 320px;
+    margin: 0 auto;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 85px;
+    margin-bottom: 128px;
+}
+
+.delivery-service {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+}
+
+.delivery-service img {
+    margin-bottom: 24px;
+}
+
+.delivery-service p{
+    color: rgba(39, 39, 39, 0.8);
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.production-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+}
+
+.production-section img {
+    margin-bottom: 24px;
+}
+
+.production-section p{
+    color: rgba(39, 39, 39, 0.8);
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.support-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+}
+
+.support-section img {
+    margin-bottom: 24px;
+}
+
+.support-section p{
+    color: rgba(39, 39, 39, 0.8);
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+/* support section end here */
+
+/* hot deal section start here */
+
+.hot-deal-section {
+    max-width: 1550px;
+    height: 620px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    border: 2px solid red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -204,6 +298,12 @@
     .header-image {
         width: 100%;
     }
+/* header section ends */
+
+/* featured section start */
+
 }
+
+
 
 /* Responsive Mobile Devices design end here */
