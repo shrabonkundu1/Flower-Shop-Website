@@ -241,7 +241,7 @@
 /* hot deal section start here */
 
 .hotdeal-section {
-    max-width: 1550px;
+    /* max-width: 1550px; */
     height: 600px;
     margin: 0 auto;
     border-radius: 8px;
@@ -305,7 +305,7 @@
     border: none;
     cursor: pointer;
 }
-.hotdeal-iamge {
+.hotdeal-image {
     
     display: flex;
     flex-direction: column;
@@ -591,15 +591,55 @@
         height: 740px;
         gap: 90px;
         width: 90%;
+        margin-bottom: 0px;
     }
 
-    .delivery-service {
-        /* position: absolute; */
-        /* top: 1000px; */
-    }
+   .hotdeal-section {
+    position: relative;
+    top: 1300px;
+    height: 850px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   }
 
+   .total-hotdeal  {
+    flex-direction: column;
+    max-width: 100%;
+    gap: 90px;
+   }
 
+   .hotdeal-section h1 {
+    width: 390px;
+   }
 
+    .hotdeal-section p {
+    width: 325px;
+   }
+
+   .hotdeal-content  {
+    width: 400px;
+    padding-left: 0;
+   }
+
+   .hotdeal-content h1 {
+    font-size: 28px;
+   }
+
+   .hotdeal-content p {
+    font-size: 16px;
+   }
+
+   .hotdeal-image {
+    margin-right: 0;
+   }
+   .hotdeal-content button {
+    width: 170px;
+   }
+
+  
 }
 
 /* Responsive Mobile Devices design end here */
