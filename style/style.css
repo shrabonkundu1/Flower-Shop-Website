@@ -51,7 +51,7 @@
     width: 177px;
     height: 64px;
     color: rgb(255, 255, 255);
-    font-family: Lato;
+    font-family: "Lato", sans-serif;
     font-size: 20px;
     font-weight: 700;
     padding: 20px 40px;
@@ -87,7 +87,7 @@
 
 .featured-flower-description h1 {
     color: rgb(39, 39, 39);
-    font-family: Lato;
+    font-family: "Lato", sans-serif;
     font-size: 40px;
     font-weight: 800;
     margin-bottom: 24px;
@@ -95,7 +95,7 @@
 
 .featured-flower-description p {
     color: rgba(39, 39, 39, 0.6);
-    font-family: Lato;
+    font-family: "Lato", sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
@@ -249,7 +249,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 100px;
+    margin-bottom: 128px;
 }
 
 .total-hotdeal {
@@ -329,6 +329,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    margin-bottom: 128px;
 }
 
 .main-title {
@@ -354,8 +355,6 @@
 }
 
 .insta-image-container {
-    /* width: 80%;
-    margin: 0 auto; */
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 12px;
@@ -368,13 +367,121 @@
 }
 
 
+/* subscribing section start here */
+
+.subscribe-container {
+    width: 80%;
+    height: 400px;
+    margin: 0 auto;
+    background-image: url(../Rectangle\ 9.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 128px;
+}
 
 
+.subscribe-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+.subscribe-title h3{
+    font-size: 2.5rem;
+    font-family: "Lato", sans-serif;
+    color: rgb(39, 39, 39);
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+
+.subscribe-title p {
+    font-size: 1.125rem;
+    font-family: "Lato", sans-serif;
+    color: rgba(39, 39, 39, 0.6);
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 48px;
+}
 
 
+.subscribe-inputbox {
+    display: flex;
+    gap: 16px;
+}
+.subscribe-inputbox  input {
+    width: 550px;
+    height: 64px;
+    padding-left: 22px;
+    display: flex;
+    border: none;
+    border-radius: 8px;
+}
+
+.first-btn {
+    width: 177px;
+    height: 64px;
+    color: rgb(255, 255, 255);
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 40px;
+    border-radius: 8px;
+    background: rgb(229, 84, 115);
+    border: none;
+    cursor: pointer;
+}
+
+/* subscribing section end here */
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 400px;
+    background-color: rgb(17, 16, 16);
+    color: rgb(255, 255, 255);
+}
 
 
+.footer-container h3 {
+    font-size: 3rem;
+    font-family: "Lato", sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    margin-bottom: 24px;
+}
 
+.footer-container h3 span {
+    color: rgb(229, 84, 115);
+}
+
+.footer-container h6 {
+    width: 40%;
+    margin: 0 auto;
+    font-size: 1.125rem;
+    font-family: "Lato", sans-serif;
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 32px;
+}
+
+.footer-container p {
+    font-size: 1rem;
+    font-family: "Lato", sans-serif;
+    color: rgba(255, 255, 255, 0.4);
+    font-weight: 400;
+    line-height: 30px;
+}
 
 
 
@@ -392,7 +499,7 @@
 
 @media screen and (max-width:576px) {
     .header-container {
-        height: 1450px;
+        height: 1100px;
     }
 
     .banner-section {
@@ -402,24 +509,97 @@
 
     .header-content {
         width: 100%;
-        height: 520px;
-        margin-top: 130px;
+        height: 530px;
+        margin-top: 70px;
     }
 
     .header-content h1 {
-        font-size: 43px;
+        font-size: 41px;
         line-height: 58px;
     }
 
-    .header-image {
+    .header-image img {
         width: 100%;
+        height: 500px;
+    }
+
+    .header-container {
+        margin-bottom: 100px;
     }
 /* header section ends */
 
+
 /* featured section start */
 
+    .featured-flower-image {
+        flex-direction: column;
+        position: relative;
+    }
+
+    .featured-flower-image .first-featured-image {
+        width: 400px;
+        height: 500px;
+        margin-bottom: 80px;
+        position: absolute;
+        top: ;
+    }
+    .featured-flower-image .second-featured-image {
+        width: 400px;
+        height: 500px;
+        margin-bottom: 80px;
+        position: absolute;
+        top: 650px;
+    }
+    .featured-flower-image .third-featured-image {
+        width: 400px;
+        height: 500px;
+        margin-bottom: 80px;
+        position: absolute;
+        top: 1270px;
+    }
+
+    .third-featured-image img  {
+        margin-top: 80px;
+    }
+
+    .first-featured-image img {
+        margin-bottom: 46px;
+    }
+            
+    .featured-flower-description {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .featured-flower-image {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    /* service-section */
+
+    .service-section {
+        position: relative;
+        top: 1200px;
+        flex-direction: column;
+        height: 740px;
+        gap: 90px;
+        width: 90%;
+    }
+
+    .delivery-service {
+        /* position: absolute; */
+        /* top: 1000px; */
+    }
+
+
+
 }
-
-
 
 /* Responsive Mobile Devices design end here */
